@@ -20,17 +20,3 @@ int	find_pos_and_square(map_t *map, int x, int y);
 
 
 #endif /*LIST_FUNCTION_INCLUDED*/
-
-/*
-int temp = j;
-while (map.arr_2d[i][j] != 'o' && map.arr_2d[i][j] != '\0') {
-	if (j < temp + map.size) {
-		j++;
-	} else if (i < map.size) {
-		j -= map.size;
-		i++;
-	} else
-		map.size++;
-}
-return (map);
-*/
